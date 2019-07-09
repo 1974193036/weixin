@@ -1,11 +1,12 @@
 {
   "pages": [
-    "pages/my/my",
     "pages/classic/classic",
     "pages/book/book",
+    "pages/my/my",
     "pages/book-detail/book-detail",
-    "components/preview/index",
-    "pages/classic-detail/classic-detail"
+    "pages/classic-detail/classic-detail",
+    "pages/about/about",
+    "pages/course/course"
   ],
   "requiredBackgroundModes": [
     "audio"

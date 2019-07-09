@@ -9,7 +9,7 @@
     <text>{{userInfo.nickName}}</text>
   </view>
   <view class="about-container">
-    <view class="about-us">
+    <view bindtap="onJumpToAbout" class="about-us">
       <image src="/images/my/about.png" />
       <text class="description">关于我们</text>
     </view>

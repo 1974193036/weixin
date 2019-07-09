@@ -1,0 +1,6 @@
+<!--pages/about/about.wxml-->
+<!-- 微信小程序能正常跳转到另一个小程序的前提是：这两个小程序被同一个微信公众号关联，否则无法跳转 -->
+<image class="about" />
+<navigator class="nav" target="miniProgram" app-id="wx8ffc97ad5bcccc89" open-type="navigate">
+  <image class="vendor" src="/images/my/vendor.png"></image>
+</navigator>®

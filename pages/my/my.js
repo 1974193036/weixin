@@ -64,6 +64,24 @@ Page({
   },
 
   /**
+   * 跳转到关于我们页面
+   */
+  onJumpToAbout() {
+    wx.navigateTo({
+      url: '/pages/about/about',
+    })
+  },
+
+  /**
+   * 跳转到点击学习页面
+   */
+  onStudy() {
+    wx.navigateTo({
+      url: '/pages/course/course'
+    })
+  },
+
+  /**
    * 点击获取用户信息
    */
   onGetUserInfo(e) {
