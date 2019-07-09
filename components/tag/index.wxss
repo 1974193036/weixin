@@ -1,0 +1,13 @@
+/* components/tag/index.wxss */
+
+.container {
+  padding: 12rpx 24rpx;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 28rpx;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  color: #666;
+}

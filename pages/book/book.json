@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "v-book": "/components/book/index",
+    "v-search": "/components/search/index",
+    "v-loading": "/components/loading/index"
+  },
+  "navigationBarTitleText": "书单"
+}

@@ -1,0 +1,3 @@
+<!--pages/classic-detail/classic-detail.wxml-->
+<v-classic cid="{{cid}}" type="{{type}}" wx:if="{{cid}}"/>
+<!-- <view>{{cid}}--{{type}}</view> -->

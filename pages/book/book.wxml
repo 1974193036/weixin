@@ -1,0 +1,40 @@
+<!--pages/book/book.wxml-->
+<view wx:if="{{!searching}}" class="container">
+  <view class="header">
+    <view class="box" bindtap="onSearching">
+      <image src="/images/icon/search.png" />
+      <text>搜索图书名称</text>
+    </view>
+  </view>
+  <view wx:if="{{!loadingCenter}}" class="sub-container">
+    <image class="head-img" src="/images/book/quality.png" />
+    <view class="books-container">
+      <block wx:for="{{books}}" wx:key="id">
+        <v-book book="{{item}}"/>
+      </block>
+    </view>
+  </view>
+</view>
+<v-loading class="loading-center" wx:if="{{loadingCenter}}"></v-loading>
+
+<v-search more="{{more}}" wx:if="{{searching}}" bind:cancel="onCancel"/>
+
+
+
+
+
+
+
+
+
+
+<!-- <view>
+  <!-- <text>pages/book/book.wxml</text> -->
+<!-- <block wx:for="{{books}}" wx:key="index">
+    <view>{{item.author}}-{{item.title}}</view>
+  </block> -->
+<!-- <view>
+  <v-book/>
+  </view> -->
+
+<!-- </view>  -->

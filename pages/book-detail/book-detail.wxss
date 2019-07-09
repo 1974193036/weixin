@@ -1,0 +1,185 @@
+/* pages/book-detail/book-detail.wxss */
+
+page {
+  background-color: #f5f5f5;
+}
+
+.container {
+  /* background-color: #f5f5f5; */
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40rpx;
+  padding-bottom: 40rpx;
+  background-color: #fff;
+}
+
+.head image {
+  width: 200rpx;
+  height: 300rpx;
+  box-shadow: 2px 2px 3px #e3e3e3;
+}
+
+.title {
+  font-size: 38rpx;
+  font-weight: 600;
+  margin-top: 20rpx;
+  color: #2f2f2f;
+}
+
+.author {
+  font-size: 28rpx;
+  color: #999;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30rpx;
+  padding: 30rpx;
+  background-color: #fff;
+}
+
+.headline {
+  font-size: 30rpx;
+  font-weight: 600;
+  margin-bottom: 20rpx;
+  color: #2f2f2f;
+  text-align: center;
+}
+
+.comment-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.comment-container v-tag {
+  margin-right: 15rpx;
+  margin-bottom: 10rpx;
+}
+
+.num {
+  margin-left: 10rpx;
+  font-size: 22rpx;
+  color: #aaa;
+}
+
+.content {
+  text-indent: 58rpx;
+  font-weight: 500;
+}
+
+.detail-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 100rpx;
+  font-size: 28rpx;
+  color: #666;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.vertical.description {
+  color: #999;
+  margin-right: 30rpx;
+}
+
+.post-container {
+  width: 100%;
+  height: 100rpx;
+  box-shadow: 1px -1px 1px #e3e3e3;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 30rpx;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.like-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like {
+  margin-right: 30rpx;
+  margin-top: 10rpx;
+}
+
+.post-fake {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 460rpx;
+  height: 54rpx;
+  border: 1px solid #999;
+  border-radius: 15px;
+  font-size: 22rpx;
+  padding-left: 20rpx;
+}
+
+.posting-container {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  width: 100%;
+  z-index: 999;
+}
+
+.post-header {
+  width: 100%;
+  height: 100rpx;
+  border-bottom: 1px solid #f5f5f5;
+  border-top: 1px solid #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cancel {
+  font-size: 30rpx;
+  color: #666;
+}
+
+.post-header text {
+  padding: 25rpx;
+}
+
+.post-header>text:first-child {
+  font-size: 28rpx;
+  color: #bbb;
+}
+
+.posting-container .comment-container {
+  padding: 40rpx 30rpx 30rpx 30rpx;
+}
+
+.shadow {
+  text-align:center;
+  color: #999;
+}
+
+
+.ex-tag1 {
+  background-color: #fffbdd !important;
+}
+
+.ex-tag2 {
+  background-color: #eefbff !important;
+}
