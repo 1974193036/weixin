@@ -4,5 +4,6 @@
     "v-search": "/components/search/index",
     "v-loading": "/components/loading/index"
   },
-  "navigationBarTitleText": "书单"
+  "navigationBarTitleText": "书单",
+  "backgroundColor": "#f5f5f5"
 }
