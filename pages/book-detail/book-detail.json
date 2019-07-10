@@ -4,5 +4,5 @@
     "v-like": "/components/like/index",
     "v-mask": "/components/mask/index"
   },
-  "navigationBarTitleText": "书单"
+  "navigationBarTitleText": "详情"
 }
